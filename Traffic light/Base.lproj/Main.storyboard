@@ -32,24 +32,21 @@
                                 <rect key="frame" x="127.5" y="35" width="120" height="120"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="BcT-IN-BCp"/>
-                                    <constraint firstAttribute="height" constant="120" id="cPl-8U-d6o"/>
+                                    <constraint firstAttribute="width" secondItem="fFR-er-MbZ" secondAttribute="height" multiplier="1:1" id="mqT-cI-uTo"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sxn-2f-oiG">
                                 <rect key="frame" x="127.5" y="180" width="120" height="120"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="JWi-55-RZC"/>
-                                    <constraint firstAttribute="width" constant="120" id="Jb4-Mq-XtW"/>
+                                    <constraint firstAttribute="width" secondItem="sxn-2f-oiG" secondAttribute="height" multiplier="1:1" id="n5H-dk-lWN"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mxg-Hr-JAj">
                                 <rect key="frame" x="127.5" y="325" width="120" height="120"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="Kr6-It-uQ7"/>
-                                    <constraint firstAttribute="width" constant="120" id="Weh-XQ-XJp"/>
+                                    <constraint firstAttribute="width" secondItem="mxg-Hr-JAj" secondAttribute="height" multiplier="1:1" id="WoH-Y6-V26"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -59,11 +56,14 @@
                             <constraint firstItem="Ne6-mH-IeY" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="3ch-Ai-khv"/>
                             <constraint firstItem="sxn-2f-oiG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EAB-Fj-46D"/>
                             <constraint firstItem="sxn-2f-oiG" firstAttribute="top" secondItem="fFR-er-MbZ" secondAttribute="bottom" constant="25" id="Kmo-de-j4B"/>
+                            <constraint firstItem="fFR-er-MbZ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="120:667" id="Pi1-Wa-goT"/>
                             <constraint firstItem="mxg-Hr-JAj" firstAttribute="top" secondItem="sxn-2f-oiG" secondAttribute="bottom" constant="25" id="atO-qX-6Xi"/>
                             <constraint firstItem="fFR-er-MbZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bi1-TN-mgM"/>
                             <constraint firstItem="mxg-Hr-JAj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="icH-zx-93k"/>
+                            <constraint firstItem="sxn-2f-oiG" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="120:667" id="oYn-I7-g18"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ne6-mH-IeY" secondAttribute="bottom" constant="56" id="pn0-qD-4ZS"/>
                             <constraint firstItem="fFR-er-MbZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="xXk-VY-fFb"/>
+                            <constraint firstItem="mxg-Hr-JAj" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="120:667" id="y7Z-LX-Ub5"/>
                         </constraints>
                     </view>
                 </viewController>
